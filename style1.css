@@ -28,12 +28,12 @@ text-align: center;
 background-color: white;
 width: auto;
 border-left: 10px solid teal; 
-padding-bottom: 58px ;
+padding-bottom: 59px ;
 padding-top: 22px;
 }
 
 .center1{
-    
+    float: center;
     
     background-color: lightseagreen;
     width: auto;
