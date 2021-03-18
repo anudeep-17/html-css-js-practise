@@ -1,0 +1,146 @@
+
+
+    body
+    {
+        background-color: grey ;
+        margin: 10px 20px 20px  ;
+    }
+    .h1{
+        color: black;
+        text-align: center;
+    }
+    .header
+    {
+    background-color: teal;
+    text-align: center;
+    color: black;  
+    width: 100%;
+    
+    background-color:teal; 
+    
+    }
+    .center{
+        text-align: center;
+    background-color: teal;
+    padding: 50px 50px;
+    }
+    .Left{
+    float: left;
+    text-align: center;
+    background-color: white;
+    width: auto;
+    border-left: 10px solid teal; 
+    padding-bottom: 58px ;
+    padding-top: 22px;
+    }
+    
+    .center1{
+        
+        
+        background-color: lightseagreen;
+        width: auto;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    
+    .right{
+        float: right;
+        
+        background-color: lightseagreen;
+        width:auto;
+        border-right: 10px solid teal ; 
+        padding-top: 20px;
+        padding-bottom: 20PX;
+    }
+    
+    .footer
+    {
+        width:auto;
+        background-color:teal;
+        text-align: center;
+        height: 20%;
+    }
+    
+    a:link {
+        color:red;
+      }
+      
+      /* visited link */
+      a:visited {
+        color:blue;
+      }
+      
+      /* mouse over link */
+      a:hover {
+        color: black;
+      }
+      
+      /* selected link */
+      a:active {
+        color: yellow;
+      } 
+
+/*styling on mobile and devices with less screen space*/
+
+    @media only screen and (max-width: 575px)
+    {
+    .center{
+        display: table;
+        text-align: center;
+    background-color: teal;
+    padding: 50px 50px;
+    height: auto;
+    }
+    .Left{
+display: table-header-group;
+    float: none;
+    text-align: center;
+    background-color: white;
+    width: auto;
+    border-left: 10px solid teal; 
+    height: 100px;
+    }
+    
+    .center1{
+        
+        background-color: lightseagreen;
+        width: auto;
+        height: 150px;
+    }
+    
+    .right{
+        float: none;
+        display: table-footer-group;
+        background-color: lightseagreen;
+        width:auto;
+        border-right: 10px solid teal ; 
+        height: auto;
+    }
+    
+    .footer
+    {
+        width:auto;
+        background-color:teal;
+        text-align: center;
+        height: 20%;
+    }
+    
+    a:link {
+        color:red;
+      }
+      
+      /* visited link */
+      a:visited {
+        color:blue;
+      }
+      
+      /* mouse over link */
+      a:hover {
+        color: black;
+      }
+      
+      /* selected link */
+      a:active {
+        color: yellow;
+      } 
+    }
