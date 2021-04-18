@@ -9,6 +9,8 @@
         color: black;
         text-align: center;
     }
+
+
     .header
     {
     background-color: teal;
@@ -30,7 +32,7 @@
     background-color: white;
     width: auto;
     border-left: 10px solid teal; 
-    padding-bottom: 58px ;
+    padding-bottom: 62px ;
     padding-top: 22px;
     }
     
@@ -84,37 +86,70 @@
 
     @media only screen and (max-width: 575px)
     {
+      body
+    {
+        background-color: grey ;
+        margin: 10px 5px 10px  ;
+    }
+    .h1{
+        color: black;
+        text-align: center;
+        
+    margin: 10px 5px 2px  ;
+    }
+    .header
+    {
+    background-color: teal;
+    text-align: center;
+    color: black;  
+    width: 100%;
+    margin: 10px 5px 10px  ;
+    background-color:teal; 
+    
+    
+    }
     .center{
         display: table;
         text-align: center;
     background-color: teal;
     padding: 50px 50px;
     height: auto;
+   
+    margin: 10px 20px 10px  ;
     }
+
     .Left{
-display: table-header-group;
+    display: table-header-group;
     float: none;
     text-align: center;
     background-color: white;
     width: auto;
     border-left: 10px solid teal; 
     height: 100px;
-    }
+    padding-left: 100px;
     
+    margin: 10px 5px 10px  ;
+      
+    }
     .center1{
-        
+        text-align: center;
         background-color: lightseagreen;
         width: auto;
-        height: 150px;
+        height: auto;
+        
+        margin: 10px 5px 10px  ;
     }
     
     .right{
+        text-align: center;
         float: none;
         display: table-footer-group;
         background-color: lightseagreen;
         width:auto;
         border-right: 10px solid teal ; 
         height: auto;
+      
+        margin: 10px 5px 10px  ;
     }
     
     .footer
@@ -123,6 +158,8 @@ display: table-header-group;
         background-color:teal;
         text-align: center;
         height: 20%;
+     
+    margin: 10px 5px 10px  ;
     }
     
     a:link {
